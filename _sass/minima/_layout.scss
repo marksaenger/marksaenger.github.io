@@ -186,10 +186,26 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1rem 0;
+  display: inline-block;
 
   > li {
     margin-bottom: $spacing-unit;
   }
+  
+  > a {
+    text-decoration: none;
+  }
+
+  &:last-child {
+    border: 0;
+  }
+}
+
+.post-title {
+  margin-left: 0;
+  list-style: none;
 }
 
 .post-meta {
@@ -201,8 +217,6 @@
   display: block;
   @include relative-font-size(1.5);
 }
-
-
 
 /**
  * Posts
