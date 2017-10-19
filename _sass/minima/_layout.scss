@@ -262,3 +262,29 @@
     }
   }
 }
+
+.pagination {
+  border-top: .5px solid #e5e5e5;
+  padding-top: 2rem;
+  position: relative;
+  text-align: center;
+
+  .arrow {
+    color: #555;
+    position: absolute;
+
+    &:hover,
+    &:focus {
+      opacity: .6;
+      text-decoration: none;
+    }
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+}

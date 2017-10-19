@@ -2,12 +2,11 @@ title: The Roberson Letters
 author: Jos. S. Roberson
 email: jos@therobersonletters.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  In 1877 Joseph S. Roberson traveled west and wrote letters to Miss Emily
+  Lofland. Follow along for a rare look into a piece of Americana history.
 
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -25,6 +24,10 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
+
+permalink: "/:title"
+
+google_analytics: UA-108107812-1
 
 gems:
   - jekyll-seo-tag
