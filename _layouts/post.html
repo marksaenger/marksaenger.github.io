@@ -24,7 +24,7 @@ layout: default
       <a href="{{ page.previous.url | relative_url }}" class="left arrow">&#8592;</a>
     {% endif %}
     {% if page.next.url %}
-      <a href="{{ page.next.url | relative_url }}" class="right arrow">&#8594;</a>
+      <div style="text-align: right"><a href="{{ page.next.url | relative_url }}" class="right arrow">&#8594;</a></div>
     {% endif %}
     </p>
   </div>
