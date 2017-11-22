@@ -1,24 +1,125 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>{{ site.title | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-		<lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
-		{% for post in site.posts limit:10 %}
+		<title>The Roberson Letters</title>
+		<description>From 1877-1878 Joseph S. Roberson wrote letters to friends, family, and one Miss Emily Lofland. Follow along for a rare glimpse into a piece of Americana.
+</description>		
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<lastBuildDate>Tue, 21 Nov 2017 00:00:00 -0800</lastBuildDate>
+		
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author.name %}
-					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}        
-				<description>{{ post.content | xml_escape }}</description>
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<title>November 21, 1877</title>
+				        
+				<description>&lt;p&gt;Wednesday morning, Nov. 21 -Im afraid my darling doesnt love me.  The fourteen days have gone by and no answer to my letter.  If she loved me, she would have answered so that now I would be reading her letter.  She should have received mine on Monday, 12th, and if she had answered that day, or the next, or still the following the letter would have been here.  Can she have found one to like better?  No, no, no, I wont believe it yet.   But then she would have answered something if my letter reached her in time.  Therefore Ill find fault with the mails.  Im always opposed to the government, and now I have an additional ground for being a rebel.  Its an awfully long time until tomorrow morning, and there is only one through mail a day.  Suppose I dont get my answer then?  Suppose I do, and it says “we must not.”  If it should be so what a blank!  She said shed have to write anyway - and &lt;strong&gt;&lt;em&gt;she will&lt;/em&gt;&lt;/strong&gt; - I know her too well.  I was not mistaken in the honesty of that face.  It is the index to a good heart, and Ill be content  —- till tomorrow.  The answer will come then.  And then!  And then?  If it is as I hope, she shall hear from me once a week at first, and oftener when she says so.  But what would I write about?  And yet I believe I could occupy hours, days by writing.  I would tell over and over, how I love her, how I want her to be my own, to cheer and purify a lonely life.  I would tell her what I think, what I do, and how I wonder the self same minutes what she is doing.  I would speculate upon the probabilities of her learning to love me, of the possibilities of my being able to make her always happy.  I should say how I would try, and that if excess of love was the test she should already be contented.   I should tell her how I would study to please her, how I would smooth the rough parts of me and try to be nearer to her.  I would tell her how I would not lead her over thorny paths, but with my own hands pluck the brambles from her way.  I should tell her how bad I have been and how good I will be, and ask her to believe me, to believe in me, to understand and trust me, as I do her.  O, there are so many things to say I could never find the time to write them.  But Id write so much Id be afraid shed tire of me.  And what a myriad of things she could tell me, all interesting.   She could tell me of her “downsittings and her uprisings” , of her thoughts that I might “understand them afar off”,  of her music, new pieces, old pieces, visits, young lady callers, young gentleman callers, her flower pots and everything.  All would entertain me vastly.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 21 Nov 2017 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/November-21-1877</link>
+				<guid isPermaLink="true">http://localhost:4000/November-21-1877</guid>
 			</item>
-		{% endfor %}
+		
+			<item>
+				<title>November 17, 1877</title>
+				        
+				<description>&lt;p&gt;Mr. A.E. Head&lt;br /&gt;
+Nevada Block&lt;/p&gt;
+
+&lt;p&gt;Dear Sir,&lt;br /&gt;
+At the time we made our horse tradenearly two years agoI had a little money and property and was receiving a fair salary.  Since then, whether through bad management or bad luck, my money has dwindled away.  My salary has been reduced and now I am so poor that even my watch has been disposed of to pay debts.  It seems to me that sufficient time has elapsed to settle up our affairs some way.  At least to have some kind of an understanding.  The agreement was, as you remember, that when you made me $1000 the horse was yours.  The fact of your selling him is evidence that you consider yourself the owner, and yet I have received not one dollar in value for the horse, saddle and bridle.  The stock transactions were manipulated by you, or by your direction without any knowledge or suggestion of mine, and all the satisfaction I have even been given was “wait until the time comes.”  There have been several sharp rises in stocks, but so far I have had no encouraging report.  I wish you would tell me what I may expect, and when.  It certainly has been running long enough to have a definite understanding.  What do you propose?  You surely do not intend that I shall never receive anything.  Everybody says you will “make it all right,” but two years is a long time to allow a trade of this kind to remain unsettled.&lt;/p&gt;
+
+&lt;p&gt;I have tried repeatedly to see you, but cannot - I have been to your office often but do not find you.  Hence I write.  Think it over and see if we cannot make a settlement of some kind, and soon.  I am actually in need or would not bother you.&lt;/p&gt;
+
+&lt;p&gt;Yours Truly&lt;br /&gt;
+Jos. S. Roberson&lt;/p&gt;
+</description>
+				<pubDate>Fri, 17 Nov 2017 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/November-17-1877</link>
+				<guid isPermaLink="true">http://localhost:4000/November-17-1877</guid>
+			</item>
+		
+			<item>
+				<title>November 15, 1877</title>
+				        
+				<description>&lt;p&gt;Dear friend Genl Smith ~&lt;/p&gt;
+
+&lt;p&gt;I have been at home two weeks, but I did not forget the photograph. It was only finished last night.  When Miss Bettie and Miss Sed ~ (I can’t know them by any other names,) return I wish you would present my kindest regards and ask them to send one of their photographs as they appear now.  Also please say that I regret exceedingly not having met them at Sedalia.  The principal reason I stopped there was to see you and your daughters.  I prize the picture you gave me of yourself more than any I have.  In addition to being a very fine likeness it is pronounced by every one who has seen it to be that of a very handsome gentleman.&lt;/p&gt;
+
+&lt;p&gt;I have thought a good deal of what you told me of fathers treatment of you in regard to the $1000 endorsement you had to pay for him.  It pains me to the heart to think he has grown so indifferent to all obligations, but I am persuaded the fault is not chargeable so much to him as to his better half, who—I believe—rules him in everything.  They treated me the same way some five years ago.&lt;/p&gt;
+
+&lt;p&gt;With my best wishes, believe me;&lt;/p&gt;
+
+&lt;p&gt;Very Truly Yours,&lt;br /&gt;
+Jos. S. Roberson&lt;/p&gt;
+</description>
+				<pubDate>Wed, 15 Nov 2017 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/November-15-1877</link>
+				<guid isPermaLink="true">http://localhost:4000/November-15-1877</guid>
+			</item>
+		
+			<item>
+				<title>November ?, 1877</title>
+				        
+				<description>&lt;p&gt;This only for the eye of one I would like to have the right to call&lt;/p&gt;
+
+&lt;p&gt;My darling Emily; –&lt;/p&gt;
+
+&lt;p&gt;To begin I have to make a confession.  I propose always to be honest with you and must tell this; otherwise I’ll not be honest.  I told you I liked you well, very well.  Now I must say I love you better every day - more than I can tell.&lt;/p&gt;
+
+&lt;p&gt;I have so many things to say I can say nothing.  I doubt as to whether I will receive any reply, or if at all maybe only that we must not correspond, what shall I say?  I want to talk to you, to say how blue I felt the night I left, how it was not improved by failing to see either little trifle on your finger, and the impossibility of saying one word at parting, not even a God-bless-you, Emily, I love you.&lt;/p&gt;
+
+&lt;p&gt;By this time I trust you have had a photograph taken, and I shall eagerly look for it very soon.  You wanted me to have the locket made, with the cross on one side, and put you inside.  I submit a better plan. The locket shall be made and—you willing—it shall contain my picture and be worn by you.  I have a locket already, more suitable for my chain, and when I receive the counterfeit of your face it shall be copied and placed within.  Is this not a better scheme?&lt;/p&gt;
+
+&lt;p&gt;I have written to you a number of times since I left St. Louis.  You will think strange, on first thought, that you have not received my letters, but your woman’s wit will soon come to the rescue,h and you will know that the frequent letters to Dr. Fox were intended to advise you of my whereabouts; the press copy to Mrs. L. was a useless thing and only such that you might hear a word, and the great haste to post Charley on California’s affairs was more to Emily than to Charley.  I have not written you direct till now, but it wasn’t because I didn’t want to.  If I had brought with me the right—you should have heard from me much oftener and the others not at all.  Can I not have the right?  Have you met him whom you like better?  I hope not—I hope you may never see him for my own selfish sake.  And yet my love for you is so great that should you meet him I would say “My darling is happy, why should I complain?”  But if you do not meet him and the “I like you better than I ever liked anybody before” should grow, and you should say to me, as in the song you laid out, I would be the happiest fellow on earth, and my life should be devoted to one purpose—that of trying to make my Emily contented and happy.&lt;/p&gt;
+
+&lt;p&gt;You will write to me, won’t you?  You will tell me your closest thoughts and keep nothing back?  I believe in your truth, your constancy, and the best evidence given me was when you said your love was not yet firmly fixed, but you thought you liked me very well.  You won’t write me any of those cold formal letters, like the only one I ever received from you?  I have that little note, tho, and all the little flowers you placed in my button holes.  I would not part from them.  I remember every word you ever said, and will you forgive me     x     x     x     x     x     x     x     x     x     x     x     x  but I won’t finish that sentence nor write any more until I know whether or not we are to correspond.&lt;/p&gt;
+
+&lt;p&gt;Perhaps my writing in this way may not be agreeable.  If so tell me.  But when I love, I love to tell it.  I want you to constantly believe and to know that I love you, Emily.&lt;/p&gt;
+
+&lt;p&gt;Faithfully,&lt;br /&gt;
+J.S.R.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 14 Nov 2017 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/November-x-1877</link>
+				<guid isPermaLink="true">http://localhost:4000/November-x-1877</guid>
+			</item>
+		
+			<item>
+				<title>November 5, 1877</title>
+				        
+				<description>&lt;p&gt;Dear Mrs. Lofland:&lt;/p&gt;
+
+&lt;p&gt;I have Mr. Reed’s reply, enclose it and trust the information as to whereabouts, etc., of your friends may be satisfactory.  If I can be of any service in California please command me.&lt;/p&gt;
+
+&lt;p&gt;Today I have been so bold as to write to Miss Lofland, and in the letter have expressed a desire to correspond with her, if she is willing and there is no objection made by yourself or Mr. Lofland.&lt;/p&gt;
+
+&lt;p&gt;May I hope for a favorable decision?&lt;/p&gt;
+
+&lt;p&gt;Very Respectfully Yours,&lt;br /&gt;
+Jos. S. Roberson&lt;/p&gt;
+</description>
+				<pubDate>Sun, 05 Nov 2017 00:00:00 -0700</pubDate>
+				<link>http://localhost:4000/November-5-1877</link>
+				<guid isPermaLink="true">http://localhost:4000/November-5-1877</guid>
+			</item>
+		
+			<item>
+				<title>November 2, 1877</title>
+				        
+				<description>&lt;p&gt;My dear Miss Lofland:&lt;/p&gt;
+
+&lt;p&gt;The rainy weather has begun and brings lonely evenings.  With your permission I would like to occupy as many of them as possible in correspondence with you.  That I may do no wrong I have asked Mrs. Lofland in a note whether or not it will meet with the approval of your family in case of a favorable response from you.&lt;/p&gt;
+
+&lt;p&gt;Not familiary with etiquette in such matters I suppose this must necessarily be a formal affair, and I scarcely know what to say.  On the train coming over I thought of thousands of things I wanted to write about of the trip, the rains the fist day or so, then the snow, then the winds, then the sunny bright skies, all appearing as if by magic;– of the sombre fields in Missoui, Kansas and Iowa; – how we ascended the mountains, rode over deserts, through tunnels, passed the Devils Gate and into Zion; the Sierra Nevadas with tall pines and firs gracefully bending over us, and then into the Happy Valley, the land of Oranges, Almonds and figs,– California, my home.  I thought of all these things and wrote many mental letters, but I realize now that Dr. Fox’s Guide book told you all that before.  I thought of other things, too, to write about, but it all seems a dream, for I have wakened to the reality that since I bid “you all” good bye I have heard not a word from any of you.  Was it a dream?  Have I not been away?  Surely I am writing to a real person whom I am beginning to build an ideal upon.  Will I receive an answer?  If so I promise to write again and as often as you will permit, and I will, in addition, say “thank you, Miss”.&lt;/p&gt;
+
+&lt;p&gt;If there is no objection by yourself or anybody else please write me to that effect.  I had thought of suggesting that you show this to your mother, but I remember what the young lady told you, –as stated the evening I left – namely, “that there was nothing in her letter that would be of interest to her mother.”  As I have no mother and no one else who could or would possibly take an interest in any letters I receive I will just say that if a correspondence with me is agreeable you may have no scruple about what you say, nor the length, and if you like to receive long ones inimate it, for I write very fast and nothing else to do, nobody else to think of. — I believe I will close this one, tho, and will be very impatient fro fourteen days, when I shall &lt;strong&gt;&lt;em&gt;hope&lt;/em&gt;&lt;/strong&gt; for a reply.&lt;/p&gt;
+
+&lt;p&gt;Very Respectfully Yours,&lt;br /&gt;
+Jos. S. Roberson&lt;/p&gt;
+</description>
+				<pubDate>Thu, 02 Nov 2017 00:00:00 -0700</pubDate>
+				<link>http://localhost:4000/November-2-1877</link>
+				<guid isPermaLink="true">http://localhost:4000/November-2-1877</guid>
+			</item>
+		
 	</channel>
 </rss>
